@@ -20,7 +20,7 @@ In addition to using images from the repositories:
 The labels we are interested in detecting are: door, handle.
 
 The object location is specified by the coordinates of its bounding box. Boxes were marked using Yolo_mark. 
-In the train and test files, there will be images and labels files where there is a .txt file for each image under the same name.
+In the train, test, and valid files, there will be images and labels files where there is a .txt file for each image under the same name.
 
 # 3- Dataset Usage
 This dataset of door images is completely annotated with proper bouding boxes to enable training for object detection models such as Yolo.
