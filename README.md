@@ -13,7 +13,9 @@ https://user-images.githubusercontent.com/117348725/205496278-c23522b4-2e78-4243
 https://user-images.githubusercontent.com/117348725/205496285-2b5397de-dc77-42ee-bfcc-5c8d5111ddfc.jpg
 
 In addition to using images from the repositories:
+
 1- https://github.com/MiguelARD/DoorDetect-Dataset (Cleaned from fridges and cabinets images, with tighter bounding boxes to doors and their handles)
+
 2- https://github.com/Joechencc/Handle_detection (Used images of the training data)
 
 # 2- Dataset Labels
