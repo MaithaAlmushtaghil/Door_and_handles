@@ -21,8 +21,18 @@ In addition to using images from the repositories:
 # 2- Dataset Labels
 The labels we are interested in detecting are: door, handle.
 
+Annotated in YOLO v5 PyTorch format.
+
+The following pre-processing was applied to each image:
+
+* Auto-orientation of pixel data (with EXIF-orientation stripping)
+
+and no image augmentation techniques were applied.
+
+
 The object location is specified by the coordinates of its bounding box. Boxes were marked using Yolo_mark. 
 In the train, test, and valid files, there will be images and labels files where there is a .txt file for each image under the same name.
+
 
 # 3- Dataset Usage
 This dataset of door images is completely annotated with proper bouding boxes to enable training for object detection models such as Yolo.
